@@ -1,0 +1,15 @@
+total_average :-
+    write('Enter the first number: '),
+    read(First),
+    write('Enter the second number: '),
+    read(Second),
+    write('Enter the third number: '),
+    read(Third),
+    Total is First + Second + Third,
+    Average is Total / 3,
+    write('Total = '),
+    write(Total),
+    nl,
+    write('Average = '),
+    write(Average),
+    nl.
